@@ -1,0 +1,40 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model Doctor {
+  id          Int          @id @default(autoincrement())
+  name        String
+  crm         String       @unique
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+  
+  // Relacionamentos
+  specialties Specialty[]
+  cities      City[]
+
+  @@map("doctors")
+}
+
+model Specialty {
+  id      Int      @id @default(autoincrement())
+  name    String   @unique
+  doctors Doctor[]
+
+  @@map("specialties")
+}
+
+model City {
+  id      Int      @id @default(autoincrement())
+  name    String
+  state   String
+  doctors Doctor[]
+
+  @@unique([name, state]) // Evita duplicidade de cidade/estado
+  @@map("cities")
+}
