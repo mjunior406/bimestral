@@ -6,7 +6,7 @@
 |----|--------------|--------|
 | [410031] | [Massayoshi Tatesuzi Junior] | [@mjunior406](https://github.com/mjunior406) |
 | [410137] | [Nicolas Gisto Bahia] | [@NicolasGisto](https://github.com/NicolasGisto) |
-| [Preencher] | [Preencher Nome 3] | [@usuario3](https://github.com/usuario3) |
+| [409908] | [Noemi Kaori Taniguchi] | [@NoemiKT](https://github.com/NoemiKT) |
 | [Preencher] | [Preencher Nome 4] | [@usuario4](https://github.com/usuario4) |
 
 ---
