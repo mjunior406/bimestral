@@ -7,7 +7,7 @@
 | [410031] | [Massayoshi Tatesuzi Junior] | [@mjunior406](https://github.com/mjunior406) |
 | [410137] | [Nicolas Gisto Bahia] | [@NicolasGisto](https://github.com/NicolasGisto) |
 | [409908] | [Noemi Kaori Taniguchi] | [@NoemiKT](https://github.com/NoemiKT) |
-| [409892] | [Mariana Pereira de Andrade] | [](https://github.com/) |
+| [409892] | [Mariana Pereira de Andrade] | [Mariandradx](https://github.com/Mariandradx) |
 
 ---
 
